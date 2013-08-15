@@ -27,7 +27,7 @@ public class Main
                     if (bean.getName().equals("Code Cache")) {
                         codeCache = bean;
                     }
-                    if (bean.getName().equals("PS Perm Gen")) {
+                    if (bean.getName().equals("PS Perm Gen") || bean.getName().equals("CMS Perm Gen")) {
                         permGen = bean;
                     }
                     if (bean.getName().equals("Metaspace")) { // java8 doesn't have a perm gen
